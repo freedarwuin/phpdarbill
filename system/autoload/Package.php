@@ -10,11 +10,11 @@ use PEAR2\Net\RouterOS;
 class Package
 {
     /**
-     * @param int   $id_customer String user identifier
-     * @param string $router_name router name for this package
-     * @param int   $plan_id plan id for this package
-     * @param string $gateway payment gateway name
-     * @param string $channel channel payment gateway
+     * @param int   $id_customer Identificador de usuario de cadena
+     * @param string $router_name nombre del enrutador para este paquete
+     * @param int   $plan_id identificación del plan para este paquete
+     * @param string $gateway nombre de la pasarela de pago
+     * @param string $channel pasarela de pago del canal
      * @return boolean
      */
     public static function rechargeUser($id_customer, $router_name, $plan_id, $gateway, $channel)
@@ -142,7 +142,7 @@ class Package
                 $b->type = "PPPOE";
                 $b->save();
 
-                // insert table transactions
+                // insertar transacciones de tabla
                 $t = ORM::for_table('tbl_transactions')->create();
                 $t->invoice = "INV-" . _raid(5);
                 $t->username = $c['username'];
@@ -175,7 +175,7 @@ class Package
                 $d->type = "PPPOE";
                 $d->save();
 
-                // insert table transactions
+                // insertar transacciones de tabla
                 $t = ORM::for_table('tbl_transactions')->create();
                 $t->invoice = "INV-" . _raid(5);
                 $t->username = $c['username'];

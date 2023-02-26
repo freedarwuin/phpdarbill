@@ -1,6 +1,6 @@
 <?php
 /**
-* PHP Mikrotik Billing (https://github.com/hotspotbilling/PHPMixBill/)
+* PHP Mikrotik Billing (https://github.com/freedarwuin/phpdarbill/)
 **/
 //error_reporting (0);
 $appurl = $_POST['appurl'];
@@ -26,7 +26,7 @@ if ($cn == '1') {
 define(\'APP_URL\', \'' . $appurl . '\');
 $_app_stage = \'Live\';
 
-// Database PHPMixBill
+// Database PHPDARBILL
 $db_host	    = \'' . $db_host . '\';
 $db_user        = \'' . $db_user . '\';
 $db_password	= \'' . $db_password . '\';
@@ -49,13 +49,13 @@ if($_app_stage!=\'Live\'){
 }
 ';
 $wConfig = "../config.php";
-    $fh = fopen($wConfig, 'w') or die("Can't create config file, your server does not support 'fopen' function,
-	please create a file named - config.php with following contents- <br/>$input");
+    $fh = fopen($wConfig, 'w') or die("No se puede crear el archivo de configuración, su servidor no admite la función 'fopen',
+por favor cree un archivo llamado - config.php con los siguientes contenidos- <br/>$input");
 
     fwrite($fh, $input);
     fclose($fh);
 
-    $sql = file_get_contents('PHPMixBill.sql');
+    $sql = file_get_contents('PHPDARBILL.sql');
 
     $qr = $dbh->exec($sql);
 
@@ -68,7 +68,7 @@ $wConfig = "../config.php";
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Instalador PHPMixBill</title>
+    <title>Instalador PHPDARBILL</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -89,7 +89,7 @@ $wConfig = "../config.php";
 		</div>
 
 		<div class="span12">
-			<h4> Instalador PHPMixBill </h4>
+			<h4> Instalador PHPDARBILL </h4>
 			<?php
 			if ($cn == '1') {
 			?>
@@ -104,7 +104,7 @@ $wConfig = "../config.php";
 			} elseif ($cn == '2') {
 			?>
 				<p> La conexión MySQL fue exitosa. Ocurrió un error al agregar datos en MySQL. Sin éxito
-					Instalación. Consulte la instalación manual en el sitio web github.com/ibnux/PHPMixBill o comuníquese con PHPMixBill@ibnux.com para
+					Instalación. Consulte la instalación manual en el sitio web https://github.com/freedarwuin/phpdarbill o comuníquese con darwuinjose@gmail.com para
 					ayudando en la instalación</p>
 			<?php
 			} else {
@@ -116,7 +116,7 @@ $wConfig = "../config.php";
 		</div>
 	</div>
 
-	<div class="footer">Copyright &copy; 2021 PHPMixBill. Reservados todos los derechos<br/><br/></div>
+	<div class="footer">Copyright &copy; 2021 PHPDARBILL. Reservados todos los derechos<br/><br/></div>
 </body>
 </html>
 

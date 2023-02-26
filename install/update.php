@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Actualizadores de PHPMixBill</title>
+    <title>Actualizadores de PHPDARBILL</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -23,7 +23,7 @@
         </div>
 
         <div class="span12">
-            <h4> Actualizador PHPMixBill </h4>
+            <h4> Actualizador PHPDARBILL </h4>
             <pre><?php
             include '../config.php';
             try{

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Instalador PHPMixBill</title>
+    <title>Instalador PHPDARBILL</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -22,10 +22,10 @@
 		</div>
 
 		<div class="span12">
-			<h4> Instalador PHPMixBill </h4>
+			<h4> Instalador PHPDARBILL </h4>
 			<p>
 				<strong>Felicidades!</strong><br>
-				¡Acabas de instalar PHPMixBill!<br>
+				¡Acabas de instalar PHPDARBILL!<br>
 				Para iniciar sesión en el portal de administración:<br>
 				Utilice este enlace -
 				<?php
@@ -41,6 +41,6 @@
 			</p>
 		</div>
 	</div>
-	<div class="footer">Copyright &copy; 2021 PHPMixBill. Reservados todos los derechos<br/><br/></div>
+	<div class="footer">Copyright &copy; 2021 PHPDARBILL. Reservados todos los derechos<br/><br/></div>
 </body>
 </html>

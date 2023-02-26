@@ -76,7 +76,7 @@ foreach ($d as $ds){
                 Mikrotik::removeHotspotActiveUser($client,$c['username']);
             }
 
-			//update database user dengan status off
+			//actualizar el estado de dengan del usuario de la base de datos desactivado
 			$u->status = 'off';
 			$u->save();
 		}else echo " : ACTIVE \r\n";

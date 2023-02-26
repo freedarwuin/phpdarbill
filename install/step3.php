@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>PHPMixBill  Installer</title>
+    <title>Instalador PHPDARBILL</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -22,7 +22,7 @@
 		</div>
 
 		<div class="span12">
-			<h4> Instalador PHPMixBill </h4>
+			<h4> Instalador PHPDARBILL </h4>
 			<?php
 			if (isset($_GET['_error']) && ($_GET['_error']) == '1') {
 				echo '<h4 style="color: red;"> No se puede conectar la base de datos. ¡Asegúrese de que la información de la base de datos sea correcta y vuelva a intentarlo! </h4>';
@@ -66,7 +66,7 @@
 			</form>
 		</div>
 	</div>
-	<div class="footer">Copyright &copy; 2021 PHPMixBill. Reservados todos los derechos<br/><br/></div>
+	<div class="footer">Copyright &copy; 2021 PHPDARBILL. Reservados todos los derechos<br/><br/></div>
 </body>
 </html>
 
