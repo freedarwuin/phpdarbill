@@ -68,7 +68,7 @@ $wConfig = "../config.php";
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>PHPMixBill  Installer</title>
+    <title>Instalador PHPMixBill</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -89,27 +89,27 @@ $wConfig = "../config.php";
 		</div>
 
 		<div class="span12">
-			<h4> PHPMixBill  Installer </h4>
+			<h4> Instalador PHPMixBill </h4>
 			<?php
 			if ($cn == '1') {
 			?>
-				<p><strong>Config File Created and Database Imported.</strong><br></p>
+				<p><strong>Archivo de configuración creado y base de datos importada.</strong><br></p>
 				<form action="step5.php" method="post">
 					<fieldset>
-						<legend>Click Continue</legend>
-						<button type='submit' class='btn btn-primary'>Continue</button>
+						<legend>Haga clic en Continuar</legend>
+						<button type='submit' class='btn btn-primary'>Continuar</button>
 					</fieldset>
 				</form>
 			<?php
 			} elseif ($cn == '2') {
 			?>
-				<p> MySQL Connection was successfull. An error occured while adding data on MySQL. Unsuccessfull
-					Installation. Please refer manual installation in the website github.com/ibnux/PHPMixBill or Contact PHPMixBill@ibnux.com for
-					helping on installation</p>
+				<p> La conexión MySQL fue exitosa. Ocurrió un error al agregar datos en MySQL. Sin éxito
+					Instalación. Consulte la instalación manual en el sitio web github.com/ibnux/PHPMixBill o comuníquese con PHPMixBill@ibnux.com para
+					ayudando en la instalación</p>
 			<?php
 			} else {
 			?>
-			<p> MySQL Connection Failed.</p>
+			<p> Conexión MySQL fallida.</p>
 			<?php
 			}
 			?>
