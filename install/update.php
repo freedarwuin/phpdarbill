@@ -103,7 +103,7 @@
             ?></pre>
         </div>
     </div>
-    <div class="footer">Copyright &copy; 2021 PHPNuxBill. All Rights Reserved<br /><br /></div>
+    <div class="footer">Copyright &copy; 2021 PHPNuxBill. Reservados todos los derechos<br /><br /></div>
 </body>
 
 </html>

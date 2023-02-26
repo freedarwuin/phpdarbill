@@ -25,7 +25,7 @@
 			<h4> PHPNuxBill  Installer </h4>
 			<?php
 			if (isset($_GET['_error']) && ($_GET['_error']) == '1') {
-				echo '<h4 style="color: red;"> Unable to Connect Database, Please make sure database info is correct and try again ! </h4>';
+				echo '<h4 style="color: red;"> No se puede conectar la base de datos. ¡Asegúrese de que la información de la base de datos sea correcta y vuelva a intentarlo! </h4>';
 			}//
 
 			$cururl = (((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')|| $_SERVER['SERVER_PORT'] == 443)?'https':'http').'://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
@@ -39,34 +39,34 @@
 					<legend>Database Connection &amp Site config</legend>
 
 					<div class="form-group">
-						<label for="appurl">Application URL</label>
+						<label for="appurl">URL de la aplicación</label>
 						<input type="text" class="form-control" id="appurl" name="appurl" value="<?php echo $appurl; ?>">
-						<span class='help-block'>Application url without trailing slash at the end of url (e.g. http://172.16.10.10). Please keep default, if you are unsure.</span>
+						<span class='help-block'>URL de la aplicación sin barra inclinada al final de la URL (por ejemplo, http://172.16.10.10). Por favor, mantenga el valor predeterminado, si no está seguro.</span>
 					</div>
 					<div class="form-group">
-						<label for="dbhost">Database Host</label>
+						<label for="dbhost">Base de datos</label>
 						<input type="text" class="form-control" id="dbhost" name="dbhost">
 					</div>
 					<div class="form-group">
-						<label for="dbuser">Database Username</label>
+						<label for="dbuser">Nombre de usuario de la base de datos</label>
 						<input type="text" class="form-control" id="dbuser" name="dbuser">
 					</div>
 					<div class="form-group">
-						<label for="dbpass">Database Password</label>
+						<label for="dbpass">Contraseña de la base de datos</label>
 						<input type="text" class="form-control" id="dbpass" name="dbpass">
 					</div>
 
 					<div class="form-group">
-						<label for="dbname">Database Name</label>
+						<label for="dbname">Nombre de la base de datos</label>
 						<input type="text" class="form-control" id="dbname" name="dbname">
 					</div>
 
-					<button type="submit" class="btn btn-primary">Submit</button>
+					<button type="submit" class="btn btn-primary">Enviar</button>
 				</fieldset>
 			</form>
 		</div>
 	</div>
-	<div class="footer">Copyright &copy; 2021 PHPNuxBill. All Rights Reserved<br/><br/></div>
+	<div class="footer">Copyright &copy; 2021 PHPNuxBill. Reservados todos los derechos<br/><br/></div>
 </body>
 </html>
 
