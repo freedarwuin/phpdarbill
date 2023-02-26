@@ -1,93 +1,85 @@
-# PHPNuxBill - Mikrotik Billing
+# PHPMixBill - Facturación Mikrotik
 
-## Feature
+## Característica
 
-- Voucher Generator and Print
-- Self registration
-- Multi Router Mikrotik
-- Hotspot & PPPOE
-- Easy Installation
-- Multi Language
-- Payment Gateway Midtrans, Xendit and Tripay
-- SMS validation for login
-- Whatsapp Notification to Consumer
-- Telegram Notification for Admin
+- Generador e impresión de cupones
+- Auto registro
+- Enrutador múltiple Mikrotik
+- Punto de acceso y PPPOE
+- Fácil instalación
+- Multi lenguaje
+- Pasarela de Pago Midtrans, Xendit y Tripay
+- Validación de SMS para iniciar sesión
+- Notificación de Whatsapp al Consumidor
+- Notificación de Telegram para Admin
 
-## Payment Gateway
+## Pasarela de pago
 
 - [Tripay.com](https://github.com/hotspotbilling/phpnuxbill-tripay) | Indonesia
-- [Xendit.com](https://github.com/hotspotbilling/phpnuxbill-xendit) | Indonesia and Philippine ( Philippine not tested )
+- [Xendit.com](https://github.com/hotspotbilling/phpnuxbill-xendit) | Indonesia y Filipinas (Filipinas no probadas)
 - [Duitku.com](https://github.com/hotspotbilling/phpnuxbill-duitku) | Indonesia
 
-Click link to download
+Haga clic en el enlace para descargar
 
-Goto Discussionif you want another Payment Gateway
+Ir a discusión si desea otra pasarela de pago
 
-## System Requirements
+## Requisitos del sistema
 
-Most current web servers with PHP & MySQL installed will be capable of running PHPNuxBill
+La mayoría de los servidores web actuales con PHP y MySQL instalados podrán ejecutar PHPMixBill
 
-Minimum Requirements
+Requerimientos mínimos
 
-- Linux or Windows OS
-- PHP Version 7.0+
-- Both PDO & MySQLi Support
-- GD2 Image Library
-- CURL support
-- MySQL Version 4.1.x and above
+- Sistema operativo Linux o Windows
+- PHP Versión 7.0+
+- Soporte para PDO y MySQLi
+- Biblioteca de imágenes GD2
+- Soporte para rizos
+- MySQL Versión 4.1.x y superior
 
-can be Installed in Raspberry Pi Device.
+Se puede instalar en el dispositivo Raspberry Pi.
 
-The problem with windows is hard to set cronjob, better Linux
+El problema con Windows es difícil de configurar cronjob, mejor Linux
 
-## Installation
+## Instalación
 
-- Rename **pages_template** to **pages**
-- Rename **config.sample.php** to **config.php** and make it writeable (chmod 777)
-- make writeable folder **ui/cache/** and **ui/compiled**
-- Open web and run installation
-- set cronjobs or scheduller for **system/cron.php**
-- make **config.php** unwriteable (chmod 644)
+- Cambiar el nombre de **pages_template** a **pages**
+- Cambiar el nombre de **config.sample.php** a **config.php** y hacer que se pueda escribir (chmod 777)
+- crear una carpeta grabable **ui/cache/** y **ui/compiled**
+- Abrir web y ejecutar instalación
+- configurar cronjobs o scheduller para **system/cron.php**
+- hacer que **config.php** no se pueda escribir (chmod 644)
 
 
-See [WIKI](https://github.com/hotspotbilling/phpnuxbill/wiki/Instalation)
+Ver [WIKI](https://github.com/hotspotbilling/phpnuxbill/wiki/Instalation)
 
-baca [WIKI](https://github.com/hotspotbilling/phpnuxbill/wiki/Instalation)
+Leer [WIKI](https://github.com/hotspotbilling/phpnuxbill/wiki/Instalation)
 
-## UPDGRADE
+## ACTUALIZAR
 
-for old version, below Version 6, backup **system/config.php**, delete all file except folder **pages**, upload all new files, put **config.php** in root folder (not in system folder), got to folder **/install** and run Update.
+para la versión anterior, debajo de la Versión 6, haga una copia de seguridad de **system/config.php**, elimine todos los archivos excepto la carpeta **pages**, cargue todos los archivos nuevos, coloque **config.php** en la carpeta raíz (no en el sistema carpeta), llegó a la carpeta **/install** y ejecute Actualizar.
 
-for version 6 above, just replace all files, using filezilla can choose overwrite if different file size or time.
+para la versión 6 anterior, simplemente reemplace todos los archivos, usando filezilla puede elegir sobrescribir si el tamaño o el tiempo del archivo es diferente.
 
-## RADIUS system
+## Sistema RADIO
 
-Still on development
-## Paid Support
+Todavía en desarrollo
 
-Start from Rp 500.000 or $50
+## Soporte pagado
 
-[Telegram](https://t.me/ibnux)
+Comience desde $ 25 o $ 50
 
-[Website](https://ibnux.net/layanan)
+[Telegrama](https://t.me/ibnux)
 
-## License
+[Sitio web](https://ibnux.net/layanan)
 
-GNU General Public License version 2 or later
+## Licencia
 
-see LICENSE file
+Licencia pública general GNU versión 2 o posterior
 
-## Donate to ibnux
+ver ficha LICENCIA
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/ibnux)
+## Donar a ibnux
 
-BCA: 5410454825
+[![Donar](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/ibnux)
 
-Mandiri: 163-000-1855-793
-
-a.n Ibnu Maksum
-
-## SPONSORS
-
-- [mlink.id](https://mlink.id)
-- [https://github.com/sonyinside](https://github.com/sonyinside)
+Número: (+58) 4129056224
