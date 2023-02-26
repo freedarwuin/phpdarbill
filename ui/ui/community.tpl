@@ -8,7 +8,7 @@
             </div>
             <div class="box-body">Get help from community</div>
             <div class="box-footer">
-                <a href="https://github.com/hotspotbilling/phpnuxbill/discussions" target="_blank"
+                <a href="https://github.com/freedarwuin/phpdarbilldiscussions" target="_blank"
                     class="btn btn-primary btn-lg btn-block"><i class="ion ion-chatboxes"></i> Chat Now</a>
             </div>
         </div>
@@ -22,7 +22,7 @@
                 Feedback and Bug Report
             </div>
             <div class="box-footer">
-                <a href="https://github.com/hotspotbilling/phpnuxbill/issues" target="_blank"
+                <a href="https://github.com/freedarwuin/phpdarbillissues" target="_blank"
                     class="btn btn-primary btn-lg btn-block"><i class="ion ion-chatboxes"></i> Give Feedback</a>
             </div>
         </div>
@@ -127,7 +127,7 @@
             <div class="box-footer" id="currentVersion">ver</div>
             <div class="box-footer" id="latestVersion">ver</div>
             <div class="box-footer">
-                <a href="https://github.com/hotspotbilling/phpnuxbill/releases" target="_blank"
+                <a href="https://github.com/freedarwuin/phpdarbillreleases" target="_blank"
                     class="btn btn-primary btn-lg btn-block">Get Latest Version</a>
             </div>
         </div>

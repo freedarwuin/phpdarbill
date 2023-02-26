@@ -1,6 +1,6 @@
 <?php
 /**
-* PHP Mikrotik Billing (https://github.com/hotspotbilling/phpnuxbill/)
+* PHP Mikrotik Billing (https://github.com/freedarwuin/phpdarbill)
 **/
 
 require('../config.php');

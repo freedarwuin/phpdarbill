@@ -1,7 +1,7 @@
 <?php
 
 /**
- * PHP Mikrotik Billing (https://github.com/hotspotbilling/phpnuxbill/)
+ * PHP Mikrotik Billing (https://github.com/freedarwuin/phpdarbill)
  **/
 if (isset($routes['1'])) {
     $do = $routes['1'];

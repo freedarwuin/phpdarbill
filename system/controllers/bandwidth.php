@@ -1,6 +1,6 @@
 <?php
 /**
-* PHP Mikrotik Billing (https://github.com/hotspotbilling/phpnuxbill/)
+* PHP Mikrotik Billing (https://github.com/freedarwuin/phpdarbill)
 **/
 _admin();
 $ui->assign('_title', $_L['Bandwidth_Plans']);

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * PHP Mikrotik Billing (https://github.com/hotspotbilling/phpnuxbill/)
+ * PHP Mikrotik Billing (https://github.com/freedarwuin/phpdarbill)
  * @copyright	Copyright (C) 2014-2015 PHP Mikrotik Billing
  * @license		GNU General Public License version 2 or later; see LICENSE.txt
 

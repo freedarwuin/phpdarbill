@@ -50,9 +50,9 @@ El problema con Windows es difícil de configurar cronjob, mejor Linux
 - hacer que **config.php** no se pueda escribir (chmod 644)
 
 
-Ver [WIKI](https://github.com/hotspotbilling/phpnuxbill/wiki/Instalation)
+Ver [WIKI](https://github.com/freedarwuin/phpdarbill/wiki/Instalation)
 
-Leer [WIKI](https://github.com/hotspotbilling/phpnuxbill/wiki/Instalation)
+Leer [WIKI](https://github.com/freedarwuin/phpdarbill/wiki/Instalation)
 
 ## ACTUALIZAR
 
