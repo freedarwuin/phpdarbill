@@ -26,7 +26,7 @@
             <div class="col-md-12">
                 <h4> PHPNuxBill Installer </h4>
                 <h5>Please Read Before Continue</h5>
-                <p><strong>Informasi Aplikasi</strong><br>
+                <p><strong>Información de la aplicación</strong><br>
                     Application Name: PHPNuxBill <br>
                     Release Date: 30/10/2015<br>
                     By: PHPNuxBill [ <a href="https://github.com/hotspotbilling/phpnuxbill" target="_blank">https://github.com/hotspotbilling/phpnuxbill</a> ]<br>
