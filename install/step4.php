@@ -1,6 +1,6 @@
 <?php
 /**
-* PHP Mikrotik Billing (https://github.com/hotspotbilling/phpnuxbill/)
+* PHP Mikrotik Billing (https://github.com/hotspotbilling/PHPMixBill/)
 **/
 //error_reporting (0);
 $appurl = $_POST['appurl'];
@@ -26,7 +26,7 @@ if ($cn == '1') {
 define(\'APP_URL\', \'' . $appurl . '\');
 $_app_stage = \'Live\';
 
-// Database PHPNuxBill
+// Database PHPMixBill
 $db_host	    = \'' . $db_host . '\';
 $db_user        = \'' . $db_user . '\';
 $db_password	= \'' . $db_password . '\';
@@ -55,7 +55,7 @@ $wConfig = "../config.php";
     fwrite($fh, $input);
     fclose($fh);
 
-    $sql = file_get_contents('phpnuxbill.sql');
+    $sql = file_get_contents('PHPMixBill.sql');
 
     $qr = $dbh->exec($sql);
 
@@ -68,7 +68,7 @@ $wConfig = "../config.php";
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>PHPNuxBill  Installer</title>
+    <title>PHPMixBill  Installer</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -89,7 +89,7 @@ $wConfig = "../config.php";
 		</div>
 
 		<div class="span12">
-			<h4> PHPNuxBill  Installer </h4>
+			<h4> PHPMixBill  Installer </h4>
 			<?php
 			if ($cn == '1') {
 			?>
@@ -104,7 +104,7 @@ $wConfig = "../config.php";
 			} elseif ($cn == '2') {
 			?>
 				<p> MySQL Connection was successfull. An error occured while adding data on MySQL. Unsuccessfull
-					Installation. Please refer manual installation in the website github.com/ibnux/phpnuxbill or Contact phpnuxbill@ibnux.com for
+					Installation. Please refer manual installation in the website github.com/ibnux/PHPMixBill or Contact PHPMixBill@ibnux.com for
 					helping on installation</p>
 			<?php
 			} else {
@@ -116,7 +116,7 @@ $wConfig = "../config.php";
 		</div>
 	</div>
 
-	<div class="footer">Copyright &copy; 2021 PHPNuxBill. Reservados todos los derechos<br/><br/></div>
+	<div class="footer">Copyright &copy; 2021 PHPMixBill. Reservados todos los derechos<br/><br/></div>
 </body>
 </html>
 

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>PHPNuxBill Installer</title>
+    <title>Instalador PHPMixBill</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -23,15 +23,15 @@
         </div>
 
         <div class="span12">
-            <h4> PHPNuxBill Installer </h4>
+            <h4> PHPMixBill Installer </h4>
             <?php
             $passed = '';
             $ltext = '';
             if (version_compare(PHP_VERSION, '7.2.0') >= 0) {
-                $ltext .= 'Para ejecutar PHPNuxBill, necesita al menos la versión de PHP 7.2.0, su versión de PHP es: ' . PHP_VERSION . " Tested <strong>---PASSED---</strong><br/>";
+                $ltext .= 'Para ejecutar PHPMixBill, necesita al menos la versión de PHP 7.2.0, su versión de PHP es: ' . PHP_VERSION . " Tested <strong>---PASSED---</strong><br/>";
                 $passed .= '1';
             } else {
-                $ltext .= 'Para ejecutar PHPNuxBill, necesita al menos la versión de PHP 7.2.0, su versión de PHP es: ' . PHP_VERSION . " Tested <strong>---FAILED---</strong><br/>";
+                $ltext .= 'Para ejecutar PHPMixBill, necesita al menos la versión de PHP 7.2.0, su versión de PHP es: ' . PHP_VERSION . " Tested <strong>---FAILED---</strong><br/>";
                 $passed .= '0';
             }
 
@@ -64,7 +64,7 @@
             ?>
         </div>
     </div>
-    <div class="footer">Copyright &copy; 2021 PHPNuxBill. Reservados todos los derechos<br /><br /></div>
+    <div class="footer">Copyright &copy; 2021 PHPMixBill. Reservados todos los derechos<br /><br /></div>
 </body>
 
 </html>

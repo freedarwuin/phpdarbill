@@ -22,7 +22,7 @@
 		</div>
 
 		<div class="span12">
-			<h4> PHPNuxBill  Installer </h4>
+			<h4> Instalador PHPMixBill </h4>
 			<?php
 			if (isset($_GET['_error']) && ($_GET['_error']) == '1') {
 				echo '<h4 style="color: red;"> No se puede conectar la base de datos. ¡Asegúrese de que la información de la base de datos sea correcta y vuelva a intentarlo! </h4>';
@@ -36,7 +36,7 @@
 
 			<form action="step4.php" method="post">
 				<fieldset>
-					<legend>Database Connection &amp Site config</legend>
+					<legend>Conexión de base de datos &amp configuración del sitio</legend>
 
 					<div class="form-group">
 						<label for="appurl">URL de la aplicación</label>
@@ -66,7 +66,7 @@
 			</form>
 		</div>
 	</div>
-	<div class="footer">Copyright &copy; 2021 PHPNuxBill. Reservados todos los derechos<br/><br/></div>
+	<div class="footer">Copyright &copy; 2021 PHPMixBill. Reservados todos los derechos<br/><br/></div>
 </body>
 </html>
 
