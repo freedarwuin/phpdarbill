@@ -28,7 +28,7 @@
             $passed = '';
             $ltext = '';
             if (version_compare(PHP_VERSION, '7.2.0') >= 0) {
-                $ltext .= 'To Run PHPNuxBill  You need at least PHP version 7.2.0, Your PHP Version is: ' . PHP_VERSION . " Tested <strong>---PASSED---</strong><br/>";
+                $ltext .= 'Para ejecutar PHPNuxBill, necesita al menos la versión de PHP 7.2.0, su versión de PHP es: ' . PHP_VERSION . " Tested <strong>---PASSED---</strong><br/>";
                 $passed .= '1';
             } else {
                 $ltext .= 'To Run PHPNuxBill  You need at least PHP version 7.2.0, Your PHP Version is: ' . PHP_VERSION . " Tested <strong>---FAILED---</strong><br/>";
