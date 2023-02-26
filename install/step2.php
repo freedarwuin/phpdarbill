@@ -36,35 +36,35 @@
             }
 
             if (extension_loaded('PDO')) {
-                $ltext .= 'PDO is installed on your server: ' . "Tested <strong>---PASSED---</strong><br/>";
+                $ltext .= 'PDO está instalado en su servidor: ' . "Tested <strong>---PASSED---</strong><br/>";
                 $passed .= '1';
             } else {
-                $ltext = 'PDO is installed on your server: ' . "Tested <strong>---FAILED---</strong><br/>";
+                $ltext = 'PDO está instalado en su servidor: ' . "Tested <strong>---FAILED---</strong><br/>";
                 $passed .= '0';
             }
 
             if (extension_loaded('pdo_mysql')) {
-                $ltext .= 'PDO MySQL driver is enabled on your server: ' . "Tested <strong>---PASSED---</strong><br/>";
+                $ltext .= 'El controlador PDO MySQL está habilitado en su servidor: ' . "Tested <strong>---PASSED---</strong><br/>";
                 $passed .= '1';
             } else {
-                $ltext .= 'PDO MySQL driver is not enabled on your server: ' . "Tested <strong>---FAILED---</strong><br/>";
+                $ltext .= 'El controlador PDO MySQL no está habilitado en su servidor: ' . "Tested <strong>---FAILED---</strong><br/>";
                 $passed .= '0';
             }
 
             if ($passed == '111') {
-                echo ("<br/> $ltext <br/> Great! System Test Completed. You can run PHPNuxBill on your server. Click Continue For Next Step.
+                echo ("<br/> $ltext <br/> ¡Excelente! Prueba del sistema completada. Puede ejecutar PHPMixBill en su servidor. Haga clic en Continuar para el siguiente paso.
 				<br><br>
-				<a href=\"step3.php\" class=\"btn btn-primary\">Continue</a><br><br><a href=\"update.php\" class=\"btn btn-primary\">Update System</a>");
+				<a href=\"step3.php\" class=\"btn btn-primary\">Continuar</a><br><br><a href=\"update.php\" class=\"btn btn-primary\">Actualización de Sistema</a>");
             } else {
-                echo ("<br/> $ltext <br/> Sorry. The requirements of PHPNuxBill  is not available on your server.
-				Please contact with us- iesien22@yahoo.com with this code- $passed Or contact with your server administrator
+                echo ("<br/> $ltext <br/> Lo siento. Los requisitos de PHPMixBill no están disponibles en su servidor.
+				Póngase en contacto con darwuinjose@gmail.com con este código- $passed O póngase en contacto con el administrador de su servidor
 				<br><br>
-				<a href=\"#\" class=\"btn btn-primary disabled\">Correct The Problem To Continue</a>");
+				<a href=\"#\" class=\"btn btn-primary disabled\">Corrija el problema para continuar</a>");
             }
             ?>
         </div>
     </div>
-    <div class="footer">Copyright &copy; 2021 PHPNuxBill. All Rights Reserved<br /><br /></div>
+    <div class="footer">Copyright &copy; 2021 PHPNuxBill. Reservados todos los derechos<br /><br /></div>
 </body>
 
 </html>
