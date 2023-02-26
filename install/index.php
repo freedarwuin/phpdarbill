@@ -25,12 +25,12 @@
         <div class="row">
             <div class="col-md-12">
                 <h4> PHPNuxBill Installer </h4>
-                <h5>Please Read Before Continue</h5>
+                <h5>Por favor, lea antes de continuar</h5>
                 <p><strong>Información de la aplicación</strong><br>
                     Nombre de la aplicación: PHPNuxBill <br>
                     Fecha de lanzamiento: 30/10/2015<br>
                     Por: PHPNuxBill [ <a href="https://github.com/hotspotbilling/phpnuxbill" target="_blank">https://github.com/hotspotbilling/phpnuxbill</a> ]<br>
-                    Donasi Paypal: <b>me@ibnux.et</b><br>
+                    Donaciones de paypal: <b>darwuinjos@gmail.com</b><br>
                     <br>
                     <strong>Syarat Penggunaan:</strong><br>
                     Syarat Penggunaan ini berlaku untuk semua versi.<br><br>
