@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>PHPMixBill Installer</title>
+    <title>Instalación de PHPDARBILL</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -24,12 +24,12 @@
         <!--  contents area start  -->
         <div class="row">
             <div class="col-md-12">
-                <h4> PHPMixBill Installer </h4>
+                <h4> Instalador PHPDARBILL </h4>
                 <h5>Por favor, lea antes de continuar</h5>
                 <p><strong>Información de la aplicación</strong><br>
-                    Nombre de la aplicación: PHPMixBill <br>
+                    Nombre de la aplicación: PHPDARBILL <br>
                     Fecha de lanzamiento: 30/10/2015<br>
-                    Por: PHPMixBill [ <a href="https://github.com/hotspotbilling/PHPMixBill" target="_blank">https://github.com/hotspotbilling/PHPMixBill</a> ]<br>
+                    Por: PHPDARBILL [ <a href="https://github.com/freedarwuin/phpdarbill" target="_blank">https://github.com/freedarwuin/phpdarbill</a> ]<br>
                     Donaciones de paypal: <b>darwuinjos@gmail.com</b><br>
                     <br>
                     <strong>Condiciones de uso:</strong><br>
@@ -54,7 +54,7 @@
         </div>
         <!--  contents area end  -->
     </div>
-    <div class="footer">Copyright &copy; 2021 PHPMixBill. Reservados todos los derechos<br /><br /></div>
+    <div class="footer">Copyright &copy; 2021 PHPDARBILL. Reservados todos los derechos<br /><br /></div>
 </body>
 
 </html>
