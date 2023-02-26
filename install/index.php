@@ -28,7 +28,7 @@
                 <h5>Please Read Before Continue</h5>
                 <p><strong>Información de la aplicación</strong><br>
                     Nombre de la aplicación: PHPNuxBill <br>
-                    Release Date: 30/10/2015<br>
+                    Fecha de lanzamiento: 30/10/2015<br>
                     By: PHPNuxBill [ <a href="https://github.com/hotspotbilling/phpnuxbill" target="_blank">https://github.com/hotspotbilling/phpnuxbill</a> ]<br>
                     Donasi Paypal: <b>me@ibnux.et</b><br>
                     <br>
