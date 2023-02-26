@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>PHPMixBill  Installer</title>
+    <title>Instalador PHPMixBill</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -22,12 +22,12 @@
 		</div>
 
 		<div class="span12">
-			<h4> PHPMixBill  Installer </h4>
+			<h4> Instalador PHPMixBill </h4>
 			<p>
-				<strong>Congratulations!</strong><br>
-				You have just install PHPMixBill !<br>
-				To Login Admin Portal:<br>
-				Use this link -
+				<strong>Felicidades!</strong><br>
+				¡Acabas de instalar PHPMixBill!<br>
+				Para iniciar sesión en el portal de administración:<br>
+				Utilice este enlace -
 				<?php
 				$cururl = (((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')|| $_SERVER['SERVER_PORT'] == 443)?'https':'http').'://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 				$appurl = str_replace('/install/step5.php', '', $cururl);
@@ -35,9 +35,9 @@
 				echo '<a href="' . $appurl . '/admin">' . $appurl . '/admin</a>';
 				?>
 				<br>
-				Username: admin<br>
-				Password: admin<br>
-				For security, Delete the <b>install</b> directory inside system folder.
+				Nombre de usuario: admin<br>
+				Contraseña: admin<br>
+				Por seguridad, elimine el directorio <b>install</b> dentro de la carpeta del sistema.
 			</p>
 		</div>
 	</div>
