@@ -11,9 +11,9 @@ system/plugin/*
 !system/plugin/index.html
 system/paymentgateway/ui/**
 system/paymentgateway/**
-!system/paymentgateway/ui/
-!system/paymentgateway/ui/index.html
-!system/paymentgateway/index.html
-!system/plugin/ui/
+system/paymentgateway/ui/
+system/paymentgateway/ui/index.html
+system/paymentgateway/index.html
+system/plugin/ui/
 system/plugin/ui/*
-!system/plugin/ui/index.html
+system/plugin/ui/index.html
