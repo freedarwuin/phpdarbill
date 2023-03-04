@@ -1,6 +1,6 @@
 --
 
--- Database: `PHPMixBill`
+-- Database: `PHPDARBILL`
 
 --
 
