@@ -15,9 +15,8 @@
 
 ## Pasarela de pago
 
-- [Tripay.com](https://github.com/hotspotbilling/phpnuxbill-tripay) | Indonesia
-- [Xendit.com](https://github.com/hotspotbilling/phpnuxbill-xendit) | Indonesia y Filipinas (Filipinas no probadas)
-- [Duitku.com](https://github.com/hotspotbilling/phpnuxbill-duitku) | Indonesia
+- [Binance.com](https://) | 
+- [Paypal.com](https://) |
 
 Haga clic en el enlace para descargar
 
