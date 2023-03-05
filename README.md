@@ -67,9 +67,9 @@ Todavía en desarrollo
 
 Comience desde $ 25 o $ 50
 
-[Telegrama](https://t.me/ibnux)
+[Telegrama](https://)
 
-[Sitio web](https://ibnux.net/layanan)
+[Sitio web](https://)
 
 ## Licencia
 
