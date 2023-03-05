@@ -79,6 +79,6 @@ ver ficha LICENCIA
 
 ## Donar a ibnux
 
-[![Donar](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/ibnux)
+[![Donar](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://)
 
 Número: (+58) 4129056224
