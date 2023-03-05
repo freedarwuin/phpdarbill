@@ -7,11 +7,11 @@
 - Enrutador múltiple Mikrotik
 - Punto de acceso y PPPOE
 - Fácil instalación
-- Multi lenguaje
-- Pasarela de Pago Midtrans, Xendit y Tripay
+- Multi lenguaje (Español | Ingles)
+- Pasarela de Pago Paypal, Binance.
 - Validación de SMS para iniciar sesión
-- Notificación de Whatsapp al Consumidor
-- Notificación de Telegram para Admin
+- Notificación de Whatsapp al Cliente
+- Notificación de Telegram para el Administrador
 
 ## Pasarela de pago
 
