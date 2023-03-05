@@ -77,7 +77,7 @@ Licencia pública general GNU versión 2 o posterior
 
 ver ficha LICENCIA
 
-## Donar a ibnux
+## Donar a Darwuin
 
 [![Donar](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://)
 
